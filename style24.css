@@ -1,0 +1,16 @@
+:root{
+   --x:green
+}
+
+h1{
+    --y: orange;
+    color: var(--x);
+}
+#para1{
+    color: blue;
+    /*color: var(--x);*/
+    /*color: var(--y);*/
+}
+#para2{
+    color: blue;
+}

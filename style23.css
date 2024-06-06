@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.container div{
+    border: 1px solid red;
+    background-color: aqua;
+    padding: 20px;
+    width: 400px;
+    transform: translateY(500px);
+    transform: scale(1);
+    transform: rotate(-1deg);
+    transform: rotateY(80deg)
+
+}
